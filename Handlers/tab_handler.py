@@ -32,7 +32,7 @@ class THandler(QWidget):
         super().__init__()
         self.tools_map = {
             "Web Scraper": None, 
-            "Image Resizer": ir(),
+            "Image Resizer": ir,
             "Filetype Converter": None,
             "Filesize Compressor": None,
             "QR Generator": None,
