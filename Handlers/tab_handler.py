@@ -31,12 +31,10 @@ class THandler(QWidget):
         self.tools_map = {
             "Web Scraper": None, 
             "Image Resizer": None,
-            "File Converter": None,
-            "Compressor": None,
+            "Filetype Converter": None,
+            "Filesize Compressor": None,
             "QR Generator": None,
             "PDF Merger": None,
-            "Audio Extractor": None, 
-            "Video Cutter": None
         }
         self._setup_ui()
 
