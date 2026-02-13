@@ -1,1 +1,0 @@
-# handles adding tabs of the selected tools from the ToolPicker
