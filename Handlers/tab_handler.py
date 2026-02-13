@@ -6,6 +6,8 @@ from PySide6.QtWidgets import (
 )
 from PySide6.QtCore import Qt, Signal, QSize
 
+from Tools.ImageResizer.interface import Interface as ir
+
 class PlaceholderTool(QWidget):
     def __init__(self, tool_name):
         super().__init__()
@@ -30,7 +32,7 @@ class THandler(QWidget):
         super().__init__()
         self.tools_map = {
             "Web Scraper": None, 
-            "Image Resizer": None,
+            "Image Resizer": ir(),
             "Filetype Converter": None,
             "Filesize Compressor": None,
             "QR Generator": None,
